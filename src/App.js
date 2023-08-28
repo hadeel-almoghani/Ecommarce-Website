@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 import CategoryProducts from "./app/Pages/Products/CategoryProducts";
-import Contact from "./app/Pages/Contact";
 import Home from "./app/Pages/HomePage/Home";
 import PageNotFound from "./app/Pages/PageNotFound";
 import AllProducts from "./app/Pages/Products/AllProducts";
@@ -15,7 +14,6 @@ function App() {
         <Route path="category/:categoryName" element={<CategoryProducts />} />
         <Route path="products" element={<AllProducts />} />
         <Route path="product/:productId" element={<SingleProductDetails />} />
-        <Route path="contact" element={<Contact />} />
         <Route path="cart" element={<Cart />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>

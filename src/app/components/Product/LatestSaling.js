@@ -4,11 +4,11 @@ import { useSelector } from "react-redux";
 import ProductCard from "./Card/ProductCard";
 import './product.css'
 import { Link } from "react-router-dom";
-function LatestProducts() {
+function LatestSaling() {
   const { products } = useSelector((state) => state.products);
   return (
     <Container className="new_arraivel">
-      <h3>NEW ARRIVALS</h3>
+      <h3>Latest Saling</h3>
       <Row>
         {products &&
           products.slice(0, 4).map((p) => {
@@ -22,9 +22,9 @@ function LatestProducts() {
       <Link to='/products' className="btn-btn">
       View All
       </Link>
-      <hr></hr>
+   
     </Container>
   );
 }
 
-export default LatestProducts;
+export default LatestSaling;

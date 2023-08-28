@@ -3,9 +3,25 @@
   background: #fafcfc;
   box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
   border: none;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
 }
+.custom-card:hover {
+  box-shadow:5px 5px 5px #e5a400, -10px -10px 20px #ffffff ;
 
+}
 .card-img {
   height: 150px;
   object-fit: contain;
+}
+.card-title {
+  color: #000;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }

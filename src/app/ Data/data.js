@@ -19,7 +19,7 @@ const StoreInfo = {
       heroImge:"https://images.pexels.com/photos/5632382/pexels-photo-5632382.jpeg?auto=compress&cs=tinysrgb&w=800",
       
     },
-    featuredProducts : [
+  testemonials : [
       {
         name: "Men's Classic Blazer",
         category: "Men's Clothing",
@@ -53,18 +53,6 @@ const StoreInfo = {
         discount: 17,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCP_8-NSQzK4E7nGM15eiL3ynCdFWWSwj3n-4nAqZJJJE6qsD_KsvEqEhZPLb-CFesNJE&usqp=CAU",
         rating: 2
-      },
-      {
-        name: "Men's Casual T-Shirt",
-        category: "Men's Clothing",
-        color: "Gray",
-       size: "Large",
-        dressStyle: "Casual",
-       oldPrice: 19.99,
-        newPrice: 14.99,
-        discount: 25,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCP_8-NSQzK4E7nGM15eiL3ynCdFWWSwj3n-4nAqZJJJE6qsD_KsvEqEhZPLb-CFesNJE&usqp=CAU",
-        rating: 3.5
       }
     ]
   };

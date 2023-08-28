@@ -16,9 +16,9 @@ function ProductCard({ product }) {
             className="py-3 card-img"
             src={product.image}
           />
-          <Card.Body className="text-center">
+          <Card.Body>
             <Card.Title className="fs-6">
-              {product.title.slice(0, 30)} ...
+              {product.title.slice(0, 30)}
             </Card.Title>
             <Card.Text className="text-capitalize text-decoration-none fs-6">
               {product.category}
@@ -28,13 +28,16 @@ function ProductCard({ product }) {
               <ReactStars
                 count={5}
                 value={product.rating.rate}
-                isHalf={true}
+                isHalf={false} 
                 emptyIcon={<i className="far fa-start"></i>}
                 halfIcon={<i className="fa fa-star-half-alt"></i>}
                 fullIcon={<i className="fa fa-star"></i>}
                 activeColor="#ffd700"
-              ></ReactStars>
-              {`(${product.rating.count})`}
+              >
+      
+              </ReactStars>
+
+              {`(${product.rating.rate})`}
             </div>
           </Card.Body>
         </Card>

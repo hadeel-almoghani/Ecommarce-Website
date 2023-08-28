@@ -4,7 +4,7 @@ import "./hero.css";
 import HeroInfo from "../../ Data/data";
 import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
-
+import heroImg from "./freestocks-_3Q3tsJ01nc-unsplash.jpg";
 const Hero = () => {
   const storeData = HeroInfo.HeroInfo;
   const { brands, visitors, products } = useSpring({
@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
           </Col>
           <Col md={6}>
-           
+            <img src={heroImg} alt="hero" className="hero-img"/>
           </Col>
         </Row>
       </Container>

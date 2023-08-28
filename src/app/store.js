@@ -10,10 +10,9 @@ let store = configureStore(
       categories: CategorySlice,
       products: ProductSlice,
       carts: CartSlice,
+
     },
-  },
-  initialState,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  }
 );
 
 setupListeners(store.dispatch);

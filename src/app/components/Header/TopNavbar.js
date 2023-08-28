@@ -45,9 +45,7 @@ function TopNavbar() {
             <NavLink to={"/products"} className="nav-link">
               Products
             </NavLink>
-            <NavLink to={"/contact"} className="nav-link">
-              Contact
-            </NavLink>
+          
             <div className="search">
               <input type="text" placeholder="Search for products..." />
               <FaSearch className="search-icon" />

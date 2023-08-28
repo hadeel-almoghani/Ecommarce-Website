@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 import { axiosErrorHandler } from "../../Utils/axiosErrorHandler";
-
+import jsonData from "../../ Data/data";
 //fetch all proudcts from the api end point
 export const getAllProducts = createAsyncThunk(
   "products/fetchAllProducts",
