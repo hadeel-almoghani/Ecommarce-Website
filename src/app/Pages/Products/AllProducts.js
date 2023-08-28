@@ -16,7 +16,7 @@ function AllProducts() {
           {products &&
             products.map((p) => {
               return (
-                <Col xs={12} sm={6} md={4} lg={2} className="mb-4" key={p.id}>
+                <Col xs={12} sm={6} md={3} lg={3} className="mb-4" key={p.id}>
                   <ProductCard product={p} />
                 </Col>
               );

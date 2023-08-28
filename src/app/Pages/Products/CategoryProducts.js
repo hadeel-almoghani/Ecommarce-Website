@@ -30,8 +30,8 @@ function CategoryProducts() {
                   <Col
                     xs={12}
                     sm={6}
-                    md={2}
-                    lg={2}
+                    md={3}
+                    lg={3}
                     className="mb-4"
                     key={product.id}
                   >
