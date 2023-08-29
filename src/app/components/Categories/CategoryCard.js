@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./CategoryCard.css";
-function CategoryCard({ category }) {
+function CategoryCard({ category  }) {
   return (
     <Link
       to={`category/${category}`}
@@ -10,7 +10,9 @@ function CategoryCard({ category }) {
     >
       <Card className="custom-card">
         <Card.Body>
-          <Card.Text className="text-capitalize">{category}</Card.Text>
+          <Card.Text className="text-capitalize d-flex justify-content-betwwen align-item-center">{category}
+          
+          </Card.Text>
         </Card.Body>
       </Card>
     </Link>

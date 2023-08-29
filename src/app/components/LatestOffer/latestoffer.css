@@ -1,0 +1,55 @@
+
+.latest-offer{
+    display: flex;
+    padding: 36px 64px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: #000;
+    margin-bottom: 4rem;
+}
+.latest-offer h3{
+color: #FFF;
+font-family: Integral CF;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+flex-shrink: 0;
+line-height: 45px; /* 112.5% */
+}
+.email-form input{
+display: flex;
+padding: 12px 16px;
+align-items: flex-start;
+gap: 12px;
+border-radius: 62px;
+background: #FFF;
+border: none;
+margin-bottom: 1rem;
+}
+.email-form button{
+   display: flex;
+   padding: 12px 16px;
+   align-items: center;
+   justify-content: center;
+   gap: 12px;
+   border-radius: 62px;
+   background: #FFF;
+   border: none;
+   text-align: center;
+   color: #000;
+   font-size: 16px;
+   font-weight: 500;
+   cursor: pointer;
+   transition:all 0.4s ease ;
+   -webkit-transition:all 0.4s ease ;
+   -moz-transition:all 0.4s ease ;
+   -ms-transition:all 0.4s ease ;
+   -o-transition:all 0.4s ease ;
+}
+    .email-form button:hover{
+        color: #FFF;
+        background-color:#e5a400;
+    }
+
+    

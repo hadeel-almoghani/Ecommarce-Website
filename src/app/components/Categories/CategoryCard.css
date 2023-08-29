@@ -20,3 +20,19 @@ margin-bottom: 4rem;
   font-size: 2rem;
   font-weight: 700;
 }
+
+.category-card-8-cols .card-body{
+background-image:url('https://images.pexels.com/photos/4050388/pexels-photo-4050388.jpeg?auto=compress&cs=tinysrgb&w=800');
+background-size: cover;
+background-repeat: no-repeat;
+height: 300px;
+
+}
+
+.category-card-4-cols .card-body{
+  background-image:url('https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=800');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+ 
+  }

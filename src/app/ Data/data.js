@@ -20,40 +20,26 @@ const StoreInfo = {
       
     },
   testemonials : [
-      {
-        name: "Men's Classic Blazer",
-        category: "Men's Clothing",
-        color: "Navy Blue",
-        size: "Medium",
-        dressStyle: "Formal",
-        oldPrice: 99.99,
-        newPrice: 79.99,
-        discount: 20,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCP_8-NSQzK4E7nGM15eiL3ynCdFWWSwj3n-4nAqZJJJE6qsD_KsvEqEhZPLb-CFesNJE&usqp=CAU",
-        rating: 4.0 
-      },
-      {
-        name: "Women's Floral Maxi ",
-        category: "Women's Clothing",
-        color: "Floral",
-        size: "Small",
-        dressStyle: "Casual",
-        newPrice: 64.99,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCP_8-NSQzK4E7nGM15eiL3ynCdFWWSwj3n-4nAqZJJJE6qsD_KsvEqEhZPLb-CFesNJE&usqp=CAU",
-        rating: 4.5
-      },
-      {
-        name: "Kid's Printed T-Shirt",
-        category: "Kids' Clothing",
-        color: "Red",
-        size: "Large",
-        dressStyle: "Playful",
-        oldPrice: 29.99,
-        newPrice: 24.99,
-        discount: 17,
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCP_8-NSQzK4E7nGM15eiL3ynCdFWWSwj3n-4nAqZJJJE6qsD_KsvEqEhZPLb-CFesNJE&usqp=CAU",
-        rating: 2
-      }
+    {
+      content: "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",
+      name: "James L.",
+      stars: 5,
+    },
+    {
+      content: "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
+      name: "Alex K.",
+      stars: 4,
+    },
+    {
+      content: "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
+      name: "Alex K.",
+      stars: 4,
+    },
+    {
+      content: "Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.",
+      name: "Alex K.",
+      stars: 4,
+    }
     ]
   };
 export default StoreInfo;

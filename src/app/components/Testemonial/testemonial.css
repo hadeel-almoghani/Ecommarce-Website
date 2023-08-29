@@ -1,0 +1,60 @@
+.testemonial{
+    margin-top: 80px;
+}
+.testemonial h2{
+    color: #000;
+    font-family: Integral CF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+.box-testemonial{
+display: flex;
+padding: 28px 32px;
+align-items: flex-start;
+align-content: flex-start;
+gap: 24px 342px;
+flex-wrap: wrap;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+}
+.slick-slide {
+    margin: 0 20px; /* تحديد المسافة الأفقية بين السلايدرات */
+  }
+.testemonial-name{
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 110% */
+margin-top: 20px;
+}
+.testmonial-text{
+color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+}
+.slick-dots {
+    position: absolute;
+    bottom: 38%;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;}
+
+ .slick-dots li button:before{
+    font-size: 13px;
+ } 
+ .slick-dots li.slick-active button:before{
+    color: #e5a400;
+    
+ }
+ .slick-list {
+    margin-top: 5rem;
+}

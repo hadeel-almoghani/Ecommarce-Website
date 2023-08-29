@@ -88,6 +88,12 @@
         width: 100%;
         height: 100%;
     }
+    .compani-item svg{
+        cursor: pointer;
+    }
+   .compani-item svg path:hover {
+        fill:#e5a400; /* تغيير اللون إلى الأصفر */
+      }
     @media (max-width:760px){
         .hero h1{
             font-size: 2rem;
