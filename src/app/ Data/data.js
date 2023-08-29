@@ -19,6 +19,19 @@ const StoreInfo = {
       heroImge:"https://images.pexels.com/photos/5632382/pexels-photo-5632382.jpeg?auto=compress&cs=tinysrgb&w=800",
       
     },
+    productsData : [
+      {
+        id: 1,
+        name: "Product 1",
+        price: 10,
+      },
+      {
+        id: 2,
+        name: "Product 2",
+        price: 20,
+      },
+   
+    ],
   testemonials : [
     {
       content: "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.",

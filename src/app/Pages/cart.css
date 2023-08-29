@@ -1,0 +1,74 @@
+.header-page a{
+text-decoration: none;
+color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header-page span{
+color: #000;
+font-size: 16px;
+font-weight: 400;
+}
+.header-page{
+margin: 24px 0;
+}
+.cart-page h2{
+color: #000;
+font-family: Integral CF;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 24px;
+}
+.my-2.card {
+         margin-top: 0 !important;
+         border: none;
+}
+img.card-img-top.py-3.card-img {
+width: 125px;
+height: 187px;
+flex-shrink: 0;
+margin-right: 2rem;
+}
+.col-md-7.col-sm-12{
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 20px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+.card-body p{
+color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+width: 200px;
+text-align: left;
+margin-right: 2rem;
+}
+.card-body span{
+color: rgba(0, 0, 0, 0.60);
+
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.cart-increase{
+display: flex;
+padding: 12px 20px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+border-radius: 62px;
+background: #F0F0F0;
+}
+button.btn-remove.btn.btn-primary {
+    background: none;
+    border: none;
+}
