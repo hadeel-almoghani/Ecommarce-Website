@@ -8,7 +8,10 @@
     
     }
     .hero{
-        background-color: #F2F0F1;
+      
+        background-image: url('https://images.pexels.com/photos/9603489/pexels-photo-9603489.jpeg?auto=compress&cs=tinysrgb&w=800');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
     .hero-info{
         display: flex;
