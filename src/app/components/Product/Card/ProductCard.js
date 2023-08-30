@@ -11,16 +11,17 @@ function ProductCard({ product }) {
         className="text-dark text-decoration-none"
       >
         <Card className="custom-card">
-          <Card.Img
+          <Card.Img 
             variant="top"
             className="py-3 card-img"
+            style={{ margin: '0 auto' }}
             src={product.image}
           />
           <Card.Body>
             <Card.Title className="fs-6">
               {product.title.slice(0, 30)}
             </Card.Title>
-            <Card.Text className="text-capitalize text-decoration-none fs-6">
+            <Card.Text className="text-capitalize text-decoration-none fs-6 text-center" >
               {product.category}
             </Card.Text>
             <h5>${product.price}</h5>

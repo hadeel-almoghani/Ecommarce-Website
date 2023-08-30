@@ -1,17 +1,9 @@
-import React, { Fragment } from "react";
-import './footer.css'
+import React from 'react'
+
 function Footer() {
   return (
-    <Fragment>
- 
-      <div className="text-center bg-dark text-white py-2 fixed-bottom">
-        <span>
-         Create by <span className="footer-text">Hadeel Anwer Almoghani</span>
-        
-        </span>
-      </div>
-    </Fragment>
-  );
+    <div>Footer</div>
+  )
 }
 
-export default Footer;
+export default Footer

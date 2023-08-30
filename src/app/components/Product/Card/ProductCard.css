@@ -1,8 +1,8 @@
 .custom-card {
   height: 100%;
   background: #fafcfc;
-  box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
-  border: none;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
   transition: all 0.1s ease;
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
@@ -18,7 +18,7 @@
   object-fit: contain;
 }
 .card-title {
-  color: #000;
+color: #000;
 
 font-size: 20px;
 font-style: normal;
