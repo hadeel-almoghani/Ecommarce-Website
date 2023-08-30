@@ -21,14 +21,15 @@ export const subTotalPrice = createSelector(cartsItem, (items) => {
   return total.toFixed(2);
 });
 //calculate tax to purchase item
-//if the purchase ammount is 300$ or more then include 2% tax
+//if the purchase ammount is 300$ or more then include 20% tax
 export const totalTax = createSelector(subTotalPrice, (tax) =>
-  (tax * (2 / 100)).toFixed(2)
+  (tax * (20 / 100)).toFixed(2)
 );
+
 
 //count total cart price including tax
 export const totalPrice = createSelector(
   subTotalPrice,
   totalTax,
-  (subtotal, tax) => parseFloat(subtotal) + parseFloat(tax)
+  (subtotal, tax) => parseFloat(subtotal) + parseFloat(tax) + 15
 );

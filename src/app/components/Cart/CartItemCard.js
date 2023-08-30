@@ -53,7 +53,7 @@ function CartItemCard({ item }) {
                   className="py-3 card-img"
                   src={product.image}
                 />
-                <p className="d-flex flex-column">
+                <p className="d-flex flex-column ">
                   {product.title}
                   <span className=" mt-3">
                     $
@@ -64,7 +64,7 @@ function CartItemCard({ item }) {
                 </p>
               </Link>
             </div>
-            <div class="cart-increse-remove d-flex flex-column justify-content-around">
+            <div class="cart-increse-remove d-flex flex-column justify-content-around mx-5">
               <div className="w-100 text-center">
                 <Button  className ="btn-remove" onClick={removeItem}>
                   <svg

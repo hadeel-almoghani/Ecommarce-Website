@@ -47,7 +47,7 @@ color: #000;
 font-size: 20px;
 font-style: normal;
 font-weight: 700;
-width: 200px;
+
 text-align: left;
 margin-right: 2rem;
 }
@@ -71,4 +71,58 @@ background: #F0F0F0;
 button.btn-remove.btn.btn-primary {
     background: none;
     border: none;
+}
+
+.chekout.card{
+height: 458px;
+padding: 20px 24px;
+gap: 24px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+display: flex;
+align-items: flex-start;
+}
+.chekout.card .card-body{
+    text-align: left;
+    width: 100%;
+
+}
+.chekout.card .card-body h4{
+color: #000;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.chekout.card .card-body  h5{
+color: rgba(0, 0, 0, 0.60);
+font-size: 20px;
+font-weight: 400;
+}
+.chekout.card .card-body  span{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+span.discount{
+    color: #F33 !important;
+}
+.chekout.card .card-body button{
+   height: 60px;
+   padding: 16px 54px;
+   flex-shrink: 0;
+   align-self: stretch;
+   border-radius: 62px;
+   background: #000;
+   border: none;
+   transition: all 0.3s ease;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+}
+.chekout.card .card-body button:hover{
+    background:#e5a400;
 }
